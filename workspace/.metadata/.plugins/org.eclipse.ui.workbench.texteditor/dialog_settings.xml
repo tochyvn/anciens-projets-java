@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="484" key="DIALOG_X_ORIGIN"/>
+		<item value="303" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="T" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="//Creation de tigre"/>
+			<item value="Animal"/>
+			<item value="give"/>
+			<item value="mai"/>
+			<item value="liste"/>
+			<item value="Sys"/>
+			<item value="statistiq"/>
+			<item value="Reserv"/>
+		</list>
+		<list key="replacehistory">
+			<item value="T"/>
+			<item value=""/>
+			<item value="Animals"/>
+			<item value="Reservation"/>
+			<item value="ReservationDAO"/>
+			<item value="ReservationManager"/>
+			<item value="Chambre"/>
+			<item value="ChambreDAO"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="1147" key="DIALOG_X_ORIGIN"/>
+		<item value="346" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

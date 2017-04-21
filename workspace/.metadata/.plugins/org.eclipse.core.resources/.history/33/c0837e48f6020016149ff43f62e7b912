@@ -1,0 +1,18 @@
+package model.beans;
+
+public class PlatCouvert {
+
+	private Plat plat;
+
+	private Couvert couvert;
+
+	/**
+	 * 
+	 */
+	public PlatCouvert() {
+		super();
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TimerThread&apos;" deleteContents="false" description="Delete resource &apos;TimerThread&apos;" element1="/TimerThread" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1423111539362"/>
+</session>

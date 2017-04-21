@@ -1,0 +1,29 @@
+1459928873610	Rename type 'Main'
+1459955377974	Rename package 'Library'
+1459976130203	Copy compilation unit
+1459976177279	Delete element
+1459976686081	Copy compilation unit
+1459976696672	Delete element
+1459976815366	Copy compilation unit
+1459976823285	Delete element
+1459976881817	Copy compilation unit
+1459976889336	Delete element
+1459976992274	Copy compilation unit
+1459976998580	Delete element
+1459978561320	Encapsulate field 'id1'
+1460097700811	Delete element
+1460102651292	Delete element
+1460119879810	Copy elements
+1460119931814	Move 'UserOverview.fxml' to 'user'
+1460120068930	Delete elements
+1460125572195	Delete element
+1460126036912	Rename package 'view.categorie'
+1460126162276	Delete element
+1460128392912	Encapsulate field 'categorieChambre'
+1460128680446	Rename type 'CustomerOverviewController'
+1460129023982	Rename type 'Customer'
+1460129052651	Rename type 'CustomerDAO'
+1460129079819	Rename package 'view.customer'
+1460129098995	Rename type 'CustomerController'
+1460129112818	Rename resource 'CustomerOverview.fxml'
+1460129145130	Delete element

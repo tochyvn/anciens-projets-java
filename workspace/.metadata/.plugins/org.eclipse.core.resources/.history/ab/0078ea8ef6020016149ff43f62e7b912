@@ -1,0 +1,7 @@
+public class MenuCouvert {
+
+	private Menu menu;
+
+	private Couvert couvert;
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Manager&apos; to &apos;manager&apos;&#x0A;- Original project: &apos;evol-US&apos;&#x0A;- Original element: &apos;evol-US/src/Manager&apos;&#x0A;- Renamed element: &apos;evol-US/src/manager&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;Manager&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Manager" name="manager" qualified="false" references="true" stamp="1461256139833" textual="false" version="1.0"/>
+</session>

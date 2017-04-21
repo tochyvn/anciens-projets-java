@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=tp2-thread/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1458538383000"/>
+<typeInfo handle="=tp2-thread/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1458538383000"/>
+<typeInfo handle="=chambreGraph/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.scene.control(Button.class[Button" modifiers="33" timestamp="1450818590000"/>
+<typeInfo handle="=chambreGraph/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.stage(Stage.class[Stage" modifiers="33" timestamp="1450818590000"/>
+<typeInfo handle="=chambreGraph/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.scene.layout(HBox.class[HBox" modifiers="33" timestamp="1450818590000"/>
+<typeInfo handle="=chambreGraph/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.scene.layout(FlowPane.class[FlowPane" modifiers="33" timestamp="1450818590000"/>
+<typeInfo handle="=evol-US/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.naming.spi(InitialContextFactory.class[InitialContextFactory" modifiers="1537" timestamp="1458538383000"/>
+<typeInfo handle="=evol-US/src&lt;model.dao{DAO.java[DAO" modifiers="1025" timestamp="1466133461000"/>
+<typeInfo handle="=evol-US/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_77.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&lt;javafx.fxml(Initializable.class[Initializable" modifiers="1537" timestamp="1450818590000"/>
+</typeInfoHistroy>

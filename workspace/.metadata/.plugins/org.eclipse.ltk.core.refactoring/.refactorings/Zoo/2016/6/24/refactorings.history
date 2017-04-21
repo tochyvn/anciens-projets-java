@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;application.Zoo.numberEnclosureMax&apos; in &apos;application.Zoo&apos;&#x0A;- Original project: &apos;Zoo&apos;&#x0A;- Original element: &apos;application.Zoo.numberEnclosureMax&apos;&#x0A;- Getter method name: &apos;getNumberEnclosureMax&apos;&#x0A;- Setter method name: &apos;setNumberEnclosureMax&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;numberEnclosureMax&apos;" flags="589830" getter="getNumberEnclosureMax" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;application{Zoo.java[Zoo^numberEnclosureMax" insertion="10" setter="setNumberEnclosureMax" stamp="1466343309793" version="1.0" visibility="1"/>
+</session>

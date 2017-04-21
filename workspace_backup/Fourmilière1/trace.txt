@@ -1,0 +1,152 @@
+
+***************************STIMULATION DE LA VIE D'UNE FOURMILIÈRE********************
+
+Entrer le nombre de cycle de la simulation: 
+Entrer la quantité de nourriture dans chaque site: 
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°1) >>>> ----------------------
+
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°2) >>>> ----------------------
+
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°3) >>>> ----------------------
+
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°4) >>>> ----------------------
+
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°5) >>>> ----------------------
+
+La fourmi (Reine 0 && vie = 6 && position = 0) a envoyé un message NAISSANCE
+
+======================== Gestion des messages ===============================
+
+5 nouvelles fourmis arrivent dans la fourmilière:
+Ouvrières : 2  Soldats : 1  Soigneurs : 2
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°6) >>>> ----------------------
+
+La fourmi (Ouvriere 1 && vie = 4 && position = 0) avance vers le site (Site 5 && Stock = 10)
+La fourmi (Ouvriere 2 && vie = 4 && position = 0) avance vers le site (Site 4 && Stock = 10)
+La fourmi (Soldat 1 && vie = 4 && position = 0) avance vers le site (Site 4 && Stock = 10)
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°7) >>>> ----------------------
+
+La fourmi (Ouvriere 1 && vie = 3 && position = 1) avance vers le site (Site 5 && Stock = 10)
+La fourmi (Ouvriere 2 && vie = 3 && position = 1) avance vers le site (Site 4 && Stock = 10)
+La fourmi (Soldat 1 && vie = 3 && position = 2) avance vers le site (Site 4 && Stock = 10)
+	Rapport :le site (Site 4) est securisé
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°8) >>>> ----------------------
+
+La fourmi (Ouvriere 1 && vie = 2 && position = 2) avance vers le site (Site 5 && Stock = 10)
+La fourmi (Ouvriere 2 && vie = 2 && position = 2) avance vers le site (Site 4 && Stock = 10)
+La fourmi (Soldat 1 && vie = 2 && position = 4) avance vers la fourmilière
+
+======================== Gestion des messages ===============================
+
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°9) >>>> ----------------------
+
+La fourmi (Ouvriere 1 && vie = 1 && position = 3) avance vers le site (Site 5 && Stock = 10)
+La fourmi (Ouvriere 1 && vie = 0 && position = 4) a envoyé un message BLESSEE
+La fourmi (Ouvriere 2 && vie = 1 && position = 3) avance vers le site (Site 4 && Stock = 10)
+La fourmi (Ouvriere 2 && vie = 1 && position = 4) prend de la nourriture au site (Site 4 && Stock = 10)
+La quantité restante (Site 4 && Stock = 9)
+
+La fourmi (Ouvriere 2 && vie = 0 && position = 4) a envoyé un message BLESSEE
+La fourmi (Soldat 1 && vie = 1 && position = 2) avance vers la fourmilière
+La fourmi (Soldat 1 && vie = 0 && position = 0) a envoyé un message BLESSEE
+
+======================== Gestion des messages ===============================
+
+La fourmi (Ouvriere 1 && vie = 0 && position = 4) a déposé un message BLESSEE
+La fourmi (Ouvriere 2 && vie = 0 && position = 4) a déposé un message BLESSEE
+La fourmi (Soldat 1 && vie = 0 && position = 0) a déposé un message BLESSEE
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+
+-------------------------- <<<< Debut d'un nouveau cycle (CYCLE N°10) >>>> ----------------------
+
+La fourmi (Reine 0 && vie = 1 && position = 0) a envoyé un message NAISSANCE
+La fourmi (Reine 0 && vie = 0 && position = 0) a envoyé un message BLESSEE
+La fourmi (Soigneur 1 && vie = 6 && position = 0) je ne pourrai pas atteindre ma cible La fourmi (Ouvriere 1 && vie = 0 && position = 4)
+La fourmi (Soigneur 2 && vie = 6 && position = 0) je ne pourrai pas atteindre ma cible La fourmi (Ouvriere 1 && vie = 0 && position = 4)
+
+======================== Gestion des messages ===============================
+
+5 nouvelles fourmis arrivent dans la fourmilière:
+Ouvrières : 2  Soldats : 1  Soigneurs : 2
+La fourmi (Reine 0 && vie = 0 && position = 0) a déposé un message BLESSEE
+
+---------------------------- <<<< Fin du cycle >>>> -------------------------------
+
+		BILAN DE LA FOURMILIÈRE
+
+La Naissance a fait naitre au total : 10 fourmis soient:
+	Ouvrières : 4
+	Soldats : 2
+	Soigneurs : 4
+
+Fourmi blessées ramenées à la fourmilière : 2
+	La fourmi (Soldat 1 && vie = 0 && position = 0)
+	La fourmi (Reine 0 && vie = 0 && position = 0)
+
+Fourmi blessées non ramenées à la fourmilière : 2
+	La fourmi (Ouvriere 1 && vie = 0 && position = 4)
+	La fourmi (Ouvriere 2 && vie = 0 && position = 4)
+
+Fourmi blessées en cours de recupération : 0
+
+Fourmi vivantes : 7
+	La fourmi (Soigneur 1 && vie = 5 && position = 0)
+	La fourmi (Soigneur 2 && vie = 5 && position = 0)
+	La fourmi (Ouvriere 3 && vie = 4 && position = 0)
+	La fourmi (Ouvriere 4 && vie = 4 && position = 0)
+	La fourmi (Soldat 2 && vie = 4 && position = 0)
+	La fourmi (Soigneur 3 && vie = 10 && position = 0)
+	La fourmi (Soigneur 4 && vie = 10 && position = 0)

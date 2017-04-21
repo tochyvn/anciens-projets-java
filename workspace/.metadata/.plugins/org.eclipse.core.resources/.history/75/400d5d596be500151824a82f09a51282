@@ -1,0 +1,13 @@
+package controleur;
+
+import java.sql.Connection;
+
+public class Connexion {
+
+	private Connection connexion;
+	
+	public Connexion() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

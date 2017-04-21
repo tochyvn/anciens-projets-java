@@ -1,0 +1,58 @@
+package model.beans;
+
+import java.time.LocalDate;
+
+import javafx.beans.property.ObjectProperty;
+
+//import java.util.Collection;
+
+public class Facture {
+
+	private int idFacture;
+
+	private ObjectProperty<LocalDate> date;
+
+	private Client client;
+
+	private ModePaiement modePaiement;
+
+	//private Collection<LigneFacture> lignes;
+	
+	/**
+	 * 
+	 */
+	public Facture() {
+		super();
+	}
+	
+	
+
+	/**
+	 * @param idFacture
+	 * @param date
+	 * @param client
+	 * @param modePaiement
+	 */
+	public Facture(LocalDate date, Client client, ModePaiement modePaiement) {
+		super();
+		this.idFacture = idFacture;
+		this.date = date;
+		this.client = client;
+		this.modePaiement = modePaiement;
+	}
+
+
+
+	public int getIdFacture() {
+		return 0;
+	}
+
+	public void setDate(Date date) {
+
+	}
+
+	public Date getDate() {
+		return null;
+	}
+
+}

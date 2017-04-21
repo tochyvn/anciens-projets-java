@@ -1,0 +1,15 @@
+import java.util.Collection;
+
+public class Menu extends TypeProduit{
+
+	private int idMenu;
+
+	private String libelle;
+
+	private double prix;
+
+	private Collection<Plat> menuPlat;
+
+	private Collection<Couvert> menuCouvert;
+
+}

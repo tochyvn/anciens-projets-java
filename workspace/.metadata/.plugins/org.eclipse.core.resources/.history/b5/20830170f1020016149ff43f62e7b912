@@ -1,0 +1,8 @@
+import java.util.Collection;
+
+public class Ingredient {
+
+
+	private Collection<Plat> platIngredient;
+
+}

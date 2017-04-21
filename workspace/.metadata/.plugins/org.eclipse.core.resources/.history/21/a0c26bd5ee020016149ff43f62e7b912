@@ -1,0 +1,14 @@
+package model.beans;
+
+public abstract class Produit {
+
+	private Integer idProduit;
+	
+	
+	public Produit() {
+		super();
+	}
+
+	
+
+}

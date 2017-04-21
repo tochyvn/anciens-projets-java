@@ -1,0 +1,111 @@
+package model.beans;
+
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.StringProperty;
+
+public abstract class Personne {
+
+	private IntegerProperty id;
+
+	private StringProperty nom;
+
+	private StringProperty prenom;
+
+	private String adresse;
+
+	private String codePostal;
+
+	private String ville;
+
+	private String login;
+
+	private String password;
+	
+	
+	
+	public Personne() {
+		super();
+	}
+	
+	
+	/**
+	 * @param id
+	 * @param nom
+	 * @param prenom
+	 * @param adresse
+	 * @param codePostal
+	 * @param ville
+	 * @param login
+	 * @param password
+	 */
+	public Personne(String nom, String prenom, String adresse, String codePostal, String ville, String login,
+			String password) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.adresse = adresse;
+		this.codePostal = codePostal;
+		this.ville = ville;
+		this.login = login;
+		this.password = password;
+	}
+
+
+
+	public void setId(int id) {
+
+	}
+
+	public int getId() {
+		return 0;
+	}
+
+	public void setNom(String nom) {
+
+	}
+
+	public String getNom() {
+		return null;
+	}
+
+	public void setAdresse(String adresse) {
+
+	}
+
+	public String getAdresse() {
+		return null;
+	}
+
+	public void setCodePostal(String codePostal) {
+
+	}
+
+	public String getCodePostal() {
+		return null;
+	}
+
+	public void setVille(String ville) {
+
+	}
+
+	public String getVille() {
+		return null;
+	}
+
+	public void setLogin(String login) {
+
+	}
+
+	public String getLogin() {
+		return null;
+	}
+
+	public void setPassword(String password) {
+
+	}
+
+	public String getPassword() {
+		return null;
+	}
+
+}

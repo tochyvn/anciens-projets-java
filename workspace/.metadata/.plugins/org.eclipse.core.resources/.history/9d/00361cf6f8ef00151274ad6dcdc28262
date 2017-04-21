@@ -1,0 +1,9 @@
+package vue.application;
+
+public class ApplicationGraphique {
+
+	public ApplicationGraphique() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package vue.application;
+
+import controleur.Manager;
+
+public class ApplicationConsole {
+
+	public ApplicationConsole() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Manager.getInstance().getConnexion();
+	}
+
+}

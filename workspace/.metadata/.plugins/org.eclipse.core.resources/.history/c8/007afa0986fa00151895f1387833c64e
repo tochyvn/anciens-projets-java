@@ -1,0 +1,78 @@
+package scolarite.view;
+
+import java.net.URL;
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import scolarite.MainApp;
+import scolarite.model.beans.Eleve;
+import scolarite.model.dao.Connexion;
+import scolarite.model.dao.EleveDAO;
+
+public class EleveOverviewController implements Initializable {
+	
+	
+	@FXML
+	public TableView<Eleve> tblView;
+	
+	@FXML
+	private TableColumn<Eleve, String> tblNom;
+	
+	@FXML
+	private TableColumn<Eleve, String> tblPrenom;
+	
+	@FXML
+	private TableColumn<Eleve, String> tblNomComplet;
+	
+	@FXML
+	private TableColumn<Eleve, String> tblFrenchDate;
+	
+	@FXML
+	private TableColumn<Eleve, Date> tblDate;
+	
+	private ObservableList<Eleve> eleves;
+	
+	private Connection conn;
+		
+		
+	public EleveOverviewController() {
+		
+	}
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		conn = Connexion.getConnexion();
+		System.out.println(conn);
+		EleveDAO eleveDAO = new EleveDAO(conn);
+		
+		eleves = FXCollections.observableArrayList();
+		System.out.println(eleves);
+		eleveDAO.findAll(eleves);
+		System.out.println(eleves);
+		tblView = new TableView<>();
+		//System.out.println(eleves);
+		//System.out.println(tblViewEleves.getId());
+		tblView.setItems(eleves);
+		
+		//System.out.println(new PropertyValueFactory<Eleve, Date>("birthday"));
+		/*
+		tblNom.setCellValueFactory(new PropertyValueFactory<Eleve, String>("nom"));
+		tblPrenom.setCellValueFactory(new PropertyValueFactory<Eleve, String>("prenom"));
+		tblNomComplet.setCellValueFactory(new PropertyValueFactory<Eleve, String>("nomComplet"));
+		tblFrenchDate.setCellValueFactory(new PropertyValueFactory<Eleve, String>("frenchDate"));
+		tblDate.setCellValueFactory(new PropertyValueFactory<Eleve, Date>("birthday"));
+		*/
+		
+	}
+		
+	
+}

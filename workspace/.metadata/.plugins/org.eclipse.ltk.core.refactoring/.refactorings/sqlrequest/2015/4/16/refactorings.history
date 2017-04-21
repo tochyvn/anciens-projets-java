@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;sqlrequest&apos;&#x0A;- Original project: &apos;sqlrequest&apos;&#x0A;- Original element: &apos;vue.action.ExecuterListener.java&apos;" description="Delete element" element1="/src&lt;vue.action{ExecuterListener.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1428959287505" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+import java.util.Collection;
+
+public class Etat {
+
+	private int idEtat;
+
+	private String libelle;
+
+	private Collection<Chambre> chambre;
+	
+	
+	public Etat() {
+		super();
+	}
+
+	public void setIdEtat(int idEtat) {
+
+	}
+
+	
+
+}

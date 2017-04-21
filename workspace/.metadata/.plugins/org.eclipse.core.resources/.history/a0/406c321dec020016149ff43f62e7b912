@@ -1,0 +1,13 @@
+package model.beans;
+
+
+public class Utilisateur extends Personne {
+
+	private UserPosteDirection poste;
+	
+	
+	public Utilisateur() {
+		
+	}
+
+}

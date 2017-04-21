@@ -1,0 +1,14 @@
+public abstract class Produit {
+
+	private int idProduit;
+		
+
+	public void setIdProduit(int idProduit) {
+
+	}
+
+	public int getIdProduit() {
+		return 0;
+	}
+
+}

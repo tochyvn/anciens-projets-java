@@ -1,0 +1,48 @@
+package model.beans;
+
+import java.time.LocalDate;
+
+import javafx.beans.property.ObjectProperty;
+
+public class ConfirmationReservation extends DemandeReservation {
+
+	private ObjectProperty<LocalDate> dateConfirmation;
+
+	private boolean confirmation;
+	
+	
+
+	/**
+	 * 
+	 */
+	public ConfirmationReservation() {
+		super();
+	}
+
+	/**
+	 * @param dateArrivee
+	 * @param dateSortie
+	 * @param client
+	 * @param chambre
+	 */
+	public ConfirmationReservation(LocalDate dateArrivee, LocalDate dateSortie, Client client, Chambre chambre) {
+		super(dateArrivee, dateSortie, client, chambre);
+	}
+
+	public void setDateConfirmation(Date dateConfirmation) {
+
+	}
+
+	public Date getDateConfirmation() {
+		return null;
+	}
+
+	public void setConfirmation(boolean confirmation) {
+
+	}
+
+	public boolean isConfirmation() {
+		return false;
+	}
+
+}

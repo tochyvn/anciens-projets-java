@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Message.FinNourriture.siteVide&apos; in &apos;Message.FinNourriture&apos;&#x0A;- Original project: &apos;Fourmilière1&apos;&#x0A;- Original element: &apos;Message.FinNourriture.siteVide&apos;&#x0A;- Getter method name: &apos;getSiteVide&apos;&#x0A;- Setter method name: &apos;setSiteVide&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;siteVide&apos;" flags="589830" getter="getSiteVide" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;Message{FinNourriture.java[FinNourriture^siteVide" insertion="1" setter="setSiteVide" stamp="1447261120233" version="1.0" visibility="1"/>
+</session>

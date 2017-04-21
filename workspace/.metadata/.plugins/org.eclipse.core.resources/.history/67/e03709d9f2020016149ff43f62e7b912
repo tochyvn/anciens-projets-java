@@ -1,0 +1,33 @@
+package model.beans;
+
+import java.time.LocalDate;
+
+import javafx.beans.property.ObjectProperty;
+
+public class DemandeReservation extends Produit {
+
+	private ObjectProperty<LocalDate> dateArrivee;
+
+	private ObjectProperty<LocalDate> dateSortie;
+
+	private Client client;
+
+	private Chambre chambre;
+
+	public void setDateArrivee(Date dateArrivee) {
+
+	}
+
+	public Date getDateArrivee() {
+		return null;
+	}
+
+	public void setDateSortie(Date dateSortie) {
+
+	}
+
+	public Date getDateSortie() {
+		return null;
+	}
+
+}

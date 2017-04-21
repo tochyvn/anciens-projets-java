@@ -1,0 +1,9 @@
+package model.beans;
+
+public class MenuCouvert {
+
+	private Menu menu;
+
+	private Couvert couvert;
+
+}

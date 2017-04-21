@@ -1,0 +1,10 @@
+1427417036482	Encapsulate field 'name'
+1427417257676	Encapsulate field 'primaryKey'
+1427419905542	Rename package 'sqlrequest'
+1427419946847	Copy package
+1427420006860	Delete elements
+1427420067666	Rename package 'metier'
+1427420102785	Rename package 'metier'
+1427420127890	Rename package 'modele.copy'
+1427531375214	Encapsulate field 'menu'
+1427542324605	Rename type 'MonComobox'

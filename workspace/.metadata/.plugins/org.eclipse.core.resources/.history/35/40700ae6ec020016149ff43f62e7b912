@@ -1,0 +1,47 @@
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleStringProperty;
+
+public class Boisson extends Produit {
+
+	private int idBoisson;
+
+	private String libelle;
+
+	private double prix;
+	
+	
+	public Boisson() {
+		
+	}
+	
+	
+
+	/**
+	 * @param libelle
+	 * @param prix
+	 */
+	public Boisson(String libelle, double prix) {
+		super();
+		this.libelle = new SimpleStringProperty(libelle);
+		this.prix = new SimpleDoubleProperty(prix);
+	}
+
+
+
+	public void setIdBoisson(int idBoisson) {
+
+	}
+
+	public int getIdBoisson() {
+		return 0;
+	}
+
+	public void setLibelle(String libelle) {
+
+	}
+
+	public String getLibelle() {
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.util.Collection;
+
+public class Plat extends TypeProduit {
+
+	
+	private Collection<Menu> menuPlat;
+
+	private Collection<Couvert> platCouvert;
+
+	private Collection<Ingredient> platIngredient;
+
+}

@@ -1,0 +1,30 @@
+1466409782955	Move compilation units
+1466409938917	Move compilation unit
+1466410101175	Move compilation units
+1466410484208	Rename type 'Chambre1'
+1466410676716	Move compilation unit
+1466410872788	Move compilation unit
+1466414106303	Delete element
+1466525973386	Delete element
+1466525980413	Delete element
+1466559584636	Delete element
+1466559610218	Delete elements
+1466559621391	Delete element
+1466559672845	Delete element
+1466559786227	Delete element
+1466559863927	Rename type 'Chambre1'
+1466589541932	Delete element
+1466630547227	Copy elements
+1466630601281	Rename type 'HeaderReceptionOverview'
+1466630625959	Rename resource 'HeaderReceptionOverview.fxml'
+1466630684797	Copy elements
+1466630712008	Rename type 'HeaderReceptionOverview'
+1466630732725	Rename resource 'HeaderReceptionOverview.fxml'
+1466630815972	Copy elements
+1466630838781	Rename type 'HeaderReceptionOverview'
+1466630853026	Rename resource 'HeaderReceptionOverview.fxml'
+1466632373588	Delete element
+1466632465948	Delete elements
+1466632479824	Rename package 'view.statistique.header'
+1466669137182	Move 'StatistiqueMaintenance.fxml' to 'statistique'
+1466669734045	Move 'GraphChambre.fxml' to 'chambre'

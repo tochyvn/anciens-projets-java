@@ -1,0 +1,24 @@
+package com.tochap.scan;
+
+import java.util.Scanner;
+
+public class Isograd {
+
+	public Isograd() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String saisie = sc.next();
+		int numMot = 1;
+		while(sc.hasNext()) {
+			System.out.println("Tochap le mot numéro " + numMot + " est : " + saisie);
+			saisie = sc.next();
+			numMot++;
+		}
+		System.out.println("Tochap vous avez saisie "+saisie);
+		sc.close();
+	}
+
+}

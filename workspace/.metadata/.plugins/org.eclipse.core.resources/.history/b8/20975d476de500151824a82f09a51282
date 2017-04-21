@@ -1,0 +1,32 @@
+package controleur;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Connexion {
+
+	private static Connection connexion;
+	private  String url;
+	private  String user;
+	private  String passwd;
+	
+	public Connexion() {
+		this.url = "jdbc:mysql://localhost/JAVA_HOTEL";
+		this.user = "root";
+		this.passwd = "";
+	}
+	
+	public void createConnexion(String url, String user, String passwd) {
+	    String classeName = "com.mysql.jdbc.Driver";
+		try {
+			Class.forName(classeName);
+			connexion = DriverManager.getConnection(url, user, passwd);
+		} catch (SQLException e) {
+			System.out.println("Un problème est survenue lors de l'établissement de la connexion");
+		} catch (ClassNotFoundException e) {
+			System.out.println("Pilote introuvable : Pas installé");
+		}
+	}
+
+}

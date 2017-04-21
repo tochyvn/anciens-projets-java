@@ -1,0 +1,24 @@
+package model.beans;
+
+
+public class Utilisateur extends Personne {
+
+	private UserPosteDirection poste;
+	
+	
+	public Utilisateur() {
+		
+	}
+
+
+	/**
+	 * @param poste
+	 */
+	public Utilisateur(UserPosteDirection poste) {
+		super(nom, prenom, adresse, codePostal, ville, login, password)
+		this.poste = poste;
+	}
+	
+	
+
+}

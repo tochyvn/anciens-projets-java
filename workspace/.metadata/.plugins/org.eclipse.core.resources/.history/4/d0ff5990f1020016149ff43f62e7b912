@@ -1,0 +1,29 @@
+package model.beans;
+
+//import java.util.Collection;
+
+public class Ingredient extends TypeProduit {
+
+	/**
+	 * 
+	 */
+	public Ingredient() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param libelle
+	 * @param prix
+	 */
+	public Ingredient(String libelle, double prix) {
+		super(libelle, prix);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	//private Collection<Plat> platIngredient;
+	
+	
+
+}

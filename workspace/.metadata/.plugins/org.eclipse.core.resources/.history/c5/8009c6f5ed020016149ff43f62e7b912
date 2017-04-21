@@ -1,0 +1,9 @@
+package model.beans;
+
+public abstract class TypeProduit {
+
+	public TypeProduit() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

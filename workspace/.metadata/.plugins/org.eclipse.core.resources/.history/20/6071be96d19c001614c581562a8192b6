@@ -1,0 +1,17 @@
+package com.tochap.scan;
+
+import java.util.Scanner;
+
+public class Isograd {
+
+	public Isograd() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double saisie = sc.nextDouble();
+		sc.close();
+	}
+
+}
